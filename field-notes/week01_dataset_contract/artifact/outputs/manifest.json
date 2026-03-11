@@ -1,0 +1,11 @@
+{
+  "run_id": "week01_validation_local",
+  "input_file": "ratem_demo_survival.csv",
+  "input_sha256": "5ad52cd7052fbb645cf9d46e4fb30d97508aa65682dcc0480d83d2fab229f8d8",
+  "output_files": [
+    "schema_report.json",
+    "missingness_report.json",
+    "cleaning_log.json",
+    "manifest.json"
+  ]
+}
