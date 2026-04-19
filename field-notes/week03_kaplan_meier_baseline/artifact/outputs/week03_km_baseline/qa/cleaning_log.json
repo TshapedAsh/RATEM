@@ -1,0 +1,17 @@
+[
+  {
+    "step": "retain_valid_survival_rows",
+    "details": "Rows must have non-negative time_to_event and event in {0, 1}.",
+    "rows_after_step": 137
+  },
+  {
+    "step": "standardize_treatment_arm_labels",
+    "details": "Treatment labels are normalized to {A, B} for later subgroup plotting.",
+    "rows_after_step": 137
+  },
+  {
+    "step": "preserve_non-required_covariate_missingness",
+    "details": "Missing age, stage, and biomarker_x values remain visible; KM overall only requires time and event.",
+    "rows_after_step": 137
+  }
+]

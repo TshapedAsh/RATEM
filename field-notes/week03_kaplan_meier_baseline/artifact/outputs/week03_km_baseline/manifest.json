@@ -1,0 +1,28 @@
+{
+  "run_id": "week03_km_baseline",
+  "inputs": {
+    "raw_va": {
+      "path": "/mnt/data/RATEM-main-updated/data/raw/VA.csv",
+      "sha256": "0e4a710e15fbf6f23bc80c163c4afd1141de86b83e4ff88cdb95b5632b62bab1"
+    },
+    "week02_demo": {
+      "path": "/mnt/data/RATEM-main-updated/data/demo/ratem_demo_missingness.csv",
+      "sha256": "e6c378a692c711b37c21430ca909380f599322c64b3bd4370f83f977c03d989e"
+    },
+    "analysis_dataset": {
+      "path": "/mnt/data/RATEM-main-updated/data/demo/ratem_demo_analysis.csv",
+      "sha256": "e6c378a692c711b37c21430ca909380f599322c64b3bd4370f83f977c03d989e"
+    }
+  },
+  "outputs": [
+    "/mnt/data/RATEM-main-updated/field-notes/week03_kaplan_meier_baseline/artifact/outputs/week03_km_baseline/data/cleaned.csv",
+    "/mnt/data/RATEM-main-updated/field-notes/week03_kaplan_meier_baseline/artifact/outputs/week03_km_baseline/qa/cleaning_log.json",
+    "/mnt/data/RATEM-main-updated/field-notes/week03_kaplan_meier_baseline/artifact/outputs/week03_km_baseline/survival/km_overall.png",
+    "/mnt/data/RATEM-main-updated/field-notes/week03_kaplan_meier_baseline/artifact/outputs/week03_km_baseline/survival/km_event_table.csv",
+    "/mnt/data/RATEM-main-updated/field-notes/week03_kaplan_meier_baseline/artifact/outputs/week03_km_baseline/survival/km_overall_summary.json"
+  ],
+  "notes": {
+    "artifact": "Kaplan\u2013Meier + at-risk table",
+    "descriptive_only": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "label": "All",
+  "n_rows": 137,
+  "n_events": 128,
+  "n_censored": 9,
+  "time_min": 1.0,
+  "time_max": 999.0,
+  "median_survival": 80.0,
+  "curve_crosses_0_5": true,
+  "time_grid": [
+    0,
+    250,
+    500,
+    749,
+    999
+  ]
+}
