@@ -1,0 +1,51 @@
+{
+  "I": {
+    "label": "I",
+    "n_rows": 8,
+    "n_events": 6,
+    "n_censored": 2,
+    "time_min": 83.0,
+    "time_max": 999.0,
+    "median_survival": 283.0,
+    "curve_crosses_0_5": true
+  },
+  "II": {
+    "label": "II",
+    "n_rows": 43,
+    "n_events": 40,
+    "n_censored": 3,
+    "time_min": 8.0,
+    "time_max": 991.0,
+    "median_survival": 112.0,
+    "curve_crosses_0_5": true
+  },
+  "III": {
+    "label": "III",
+    "n_rows": 36,
+    "n_events": 35,
+    "n_censored": 1,
+    "time_min": 1.0,
+    "time_max": 587.0,
+    "median_survival": 63.0,
+    "curve_crosses_0_5": true
+  },
+  "IV": {
+    "label": "IV",
+    "n_rows": 33,
+    "n_events": 32,
+    "n_censored": 1,
+    "time_min": 1.0,
+    "time_max": 392.0,
+    "median_survival": 21.0,
+    "curve_crosses_0_5": true
+  },
+  "time_grid": {
+    "display_times": [
+      0,
+      250,
+      500,
+      749,
+      999
+    ]
+  }
+}

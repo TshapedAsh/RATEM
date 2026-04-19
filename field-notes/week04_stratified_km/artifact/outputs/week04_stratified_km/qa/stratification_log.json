@@ -1,0 +1,14 @@
+[
+  {
+    "stratification_variable": "treatment_arm",
+    "rows_before_dropna": 137,
+    "rows_used": 137,
+    "rows_excluded_for_missing_group": 0
+  },
+  {
+    "stratification_variable": "stage",
+    "rows_before_dropna": 137,
+    "rows_used": 120,
+    "rows_excluded_for_missing_group": 17
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "run_id": "week04_stratified_km",
+  "inputs": {
+    "raw_va": {
+      "path": "/mnt/data/RATEM-main-updated/data/raw/VA.csv",
+      "sha256": "0e4a710e15fbf6f23bc80c163c4afd1141de86b83e4ff88cdb95b5632b62bab1"
+    },
+    "analysis_dataset": {
+      "path": "/mnt/data/RATEM-main-updated/data/demo/ratem_demo_analysis.csv",
+      "sha256": "e6c378a692c711b37c21430ca909380f599322c64b3bd4370f83f977c03d989e"
+    }
+  },
+  "outputs": [
+    "/mnt/data/RATEM-main-updated/field-notes/week04_stratified_km/artifact/outputs/week04_stratified_km/data/cleaned.csv",
+    "/mnt/data/RATEM-main-updated/field-notes/week04_stratified_km/artifact/outputs/week04_stratified_km/qa/stratification_log.json",
+    "/mnt/data/RATEM-main-updated/field-notes/week04_stratified_km/artifact/outputs/week04_stratified_km/survival/km_by_group_treatment_arm.png",
+    "/mnt/data/RATEM-main-updated/field-notes/week04_stratified_km/artifact/outputs/week04_stratified_km/survival/km_by_group_stage.png",
+    "/mnt/data/RATEM-main-updated/field-notes/week04_stratified_km/artifact/outputs/week04_stratified_km/survival/km_group_summaries_treatment_arm.json",
+    "/mnt/data/RATEM-main-updated/field-notes/week04_stratified_km/artifact/outputs/week04_stratified_km/survival/km_group_summaries_stage.json"
+  ],
+  "notes": {
+    "artifact": "Stratified Kaplan\u2013Meier subgroup comparisons",
+    "descriptive_only": true,
+    "warning": "Subgroup curves are not adjusted effect estimates."
+  }
+}

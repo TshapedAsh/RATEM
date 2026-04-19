@@ -1,0 +1,31 @@
+{
+  "A": {
+    "label": "A",
+    "n_rows": 69,
+    "n_events": 64,
+    "n_censored": 5,
+    "time_min": 3.0,
+    "time_max": 553.0,
+    "median_survival": 103.0,
+    "curve_crosses_0_5": true
+  },
+  "B": {
+    "label": "B",
+    "n_rows": 68,
+    "n_events": 64,
+    "n_censored": 4,
+    "time_min": 1.0,
+    "time_max": 999.0,
+    "median_survival": 52.0,
+    "curve_crosses_0_5": true
+  },
+  "time_grid": {
+    "display_times": [
+      0,
+      250,
+      500,
+      749,
+      999
+    ]
+  }
+}
