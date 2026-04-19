@@ -1,0 +1,108 @@
+{
+  "dataset_name": "ratem_demo_survival",
+  "input_file": "data/demo/ratem_demo_survival.csv",
+  "rows": 137,
+  "columns": [
+    "id",
+    "time_to_event",
+    "event",
+    "age",
+    "treatment_arm",
+    "stage",
+    "biomarker_x"
+  ],
+  "checks": [
+    {
+      "check_name": "Type Consistency",
+      "status": "FAIL"
+    },
+    {
+      "check_name": "Numeric Ranges",
+      "status": "FAIL"
+    },
+    {
+      "check_name": "Controlled Vocabulary",
+      "status": "FAIL"
+    },
+    {
+      "check_name": "ID Uniqueness",
+      "status": "FAIL"
+    },
+    {
+      "check_name": "Temporal Logic",
+      "status": "FAIL"
+    },
+    {
+      "check_name": "Missingness Report",
+      "status": "PASS"
+    }
+  ],
+  "failed_checks": 5,
+  "violations_found": 8,
+  "violations": [
+    {
+      "row_index": 8,
+      "row_number_csv": 10,
+      "field": "biomarker_x",
+      "value": "oops",
+      "rule": "type_consistency",
+      "message": "Expected numeric"
+    },
+    {
+      "row_index": 4,
+      "row_number_csv": 6,
+      "field": "age",
+      "value": "150.0",
+      "rule": "numeric_range",
+      "message": "Allowed range: 18-100"
+    },
+    {
+      "row_index": 3,
+      "row_number_csv": 5,
+      "field": "event",
+      "value": "2",
+      "rule": "controlled_vocabulary",
+      "message": "Allowed values: [0, 1]"
+    },
+    {
+      "row_index": 5,
+      "row_number_csv": 7,
+      "field": "treatment_arm",
+      "value": "Arm A",
+      "rule": "controlled_vocabulary",
+      "message": "Allowed values: ['A', 'B']"
+    },
+    {
+      "row_index": 6,
+      "row_number_csv": 8,
+      "field": "stage",
+      "value": "V",
+      "rule": "controlled_vocabulary",
+      "message": "Allowed values: ['I', 'II', 'III', 'IV']"
+    },
+    {
+      "row_index": 0,
+      "row_number_csv": 2,
+      "field": "id",
+      "value": "001",
+      "rule": "id_uniqueness",
+      "message": "ID must be unique"
+    },
+    {
+      "row_index": 7,
+      "row_number_csv": 9,
+      "field": "id",
+      "value": "001",
+      "rule": "id_uniqueness",
+      "message": "ID must be unique"
+    },
+    {
+      "row_index": 1,
+      "row_number_csv": 3,
+      "field": "time_to_event",
+      "value": "-12",
+      "rule": "temporal_logic",
+      "message": "time_to_event must be >= 0"
+    }
+  ]
+}

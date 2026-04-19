@@ -1,0 +1,32 @@
+[
+  {
+    "rule": "fix_negative_time",
+    "action": "Review and set invalid time_to_event to NaN only with provenance note",
+    "applied": false
+  },
+  {
+    "rule": "review_event_encoding",
+    "action": "Enforce event in {0,1}",
+    "applied": false
+  },
+  {
+    "rule": "review_out_of_range_age",
+    "action": "Flag or set invalid age to NaN according to policy",
+    "applied": false
+  },
+  {
+    "rule": "normalize_controlled_vocabulary",
+    "action": "Map treatment_arm or stage only with documented rules",
+    "applied": false
+  },
+  {
+    "rule": "resolve_duplicate_ids",
+    "action": "Review duplicate IDs before deduplication",
+    "applied": false
+  },
+  {
+    "rule": "fix_type_mismatches",
+    "action": "Review non-numeric biomarker entries before coercion",
+    "applied": false
+  }
+]

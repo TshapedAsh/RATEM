@@ -1,0 +1,18 @@
+{
+  "run_id": "week01_validation_local",
+  "inputs": {
+    "validation_demo": {
+      "path": "/mnt/data/RATEM-main-updated/data/demo/ratem_demo_survival.csv",
+      "sha256": "22498e292bd2d4236eb82464fc9ca8d3dc0035c060f8351c4b2ef9a248531a46"
+    }
+  },
+  "outputs": [
+    "/mnt/data/RATEM-main-updated/field-notes/week01_dataset_contract/artifact/outputs/schema_report.json",
+    "/mnt/data/RATEM-main-updated/field-notes/week01_dataset_contract/artifact/outputs/missingness_report.json",
+    "/mnt/data/RATEM-main-updated/field-notes/week01_dataset_contract/artifact/outputs/cleaning_log.json"
+  ],
+  "notes": {
+    "week": 1,
+    "artifact": "Validation"
+  }
+}
