@@ -1,0 +1,20 @@
+[
+  {
+    "field": "age",
+    "missing_percent": 5.1,
+    "note": "occasional entry gaps",
+    "action": "flag"
+  },
+  {
+    "field": "stage",
+    "missing_percent": 12.4,
+    "note": "reporting/site variation",
+    "action": "review"
+  },
+  {
+    "field": "biomarker_x",
+    "missing_percent": 45.3,
+    "note": "test not ordered for everyone",
+    "action": "explicit_policy_required"
+  }
+]

@@ -1,0 +1,12 @@
+missingness:
+  fields:
+    - age
+    - stage
+    - biomarker_x
+  report:
+    by_variable: true
+    co_missingness: true
+    track_with_covariates: true
+    track_with_outcome_followup: true
+  silent_row_drop: false
+  actions_must_be_logged: true

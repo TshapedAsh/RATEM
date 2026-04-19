@@ -1,0 +1,14 @@
+{
+  "age": {
+    "missing_fraction": 0.0511,
+    "missing_percent": 5.1
+  },
+  "stage": {
+    "missing_fraction": 0.1241,
+    "missing_percent": 12.4
+  },
+  "biomarker_x": {
+    "missing_fraction": 0.4526,
+    "missing_percent": 45.3
+  }
+}

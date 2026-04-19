@@ -1,0 +1,17 @@
+{
+  "age": {
+    "age": 7,
+    "stage": 1,
+    "biomarker_x": 3
+  },
+  "stage": {
+    "age": 1,
+    "stage": 17,
+    "biomarker_x": 8
+  },
+  "biomarker_x": {
+    "age": 3,
+    "stage": 8,
+    "biomarker_x": 62
+  }
+}

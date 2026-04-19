@@ -1,0 +1,32 @@
+{
+  "run_id": "week02_missingness_audit",
+  "inputs": {
+    "raw_va": {
+      "path": "/mnt/data/RATEM-main-updated/data/raw/VA.csv",
+      "sha256": "0e4a710e15fbf6f23bc80c163c4afd1141de86b83e4ff88cdb95b5632b62bab1"
+    },
+    "demo_missingness": {
+      "path": "/mnt/data/RATEM-main-updated/data/demo/ratem_demo_missingness.csv",
+      "sha256": "e6c378a692c711b37c21430ca909380f599322c64b3bd4370f83f977c03d989e"
+    },
+    "policy": {
+      "path": "/mnt/data/RATEM-main-updated/field-notes/week02_missingness_policy/artifact/scripts/missingness_policy.yml",
+      "sha256": "3e694c2112eaa066c3c884b70aebc1472395c652e8ae09c9b5d7d0826d6cd13a"
+    }
+  },
+  "outputs": [
+    "/mnt/data/RATEM-main-updated/field-notes/week02_missingness_policy/artifact/outputs/week02_missingness_audit/qa/missingness_report.json",
+    "/mnt/data/RATEM-main-updated/field-notes/week02_missingness_policy/artifact/outputs/week02_missingness_audit/qa/co_missingness_report.json",
+    "/mnt/data/RATEM-main-updated/field-notes/week02_missingness_policy/artifact/outputs/week02_missingness_audit/qa/missingness_tracking.json",
+    "/mnt/data/RATEM-main-updated/field-notes/week02_missingness_policy/artifact/outputs/week02_missingness_audit/qa/cleaning_log.json",
+    "/mnt/data/RATEM-main-updated/field-notes/week02_missingness_policy/artifact/outputs/week02_missingness_audit/eda/missingness_heatmap.png"
+  ],
+  "notes": {
+    "tracked_fields": [
+      "age",
+      "stage",
+      "biomarker_x"
+    ],
+    "silent_row_drop": false
+  }
+}
